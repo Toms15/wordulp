@@ -1,0 +1,61 @@
+{
+  "name": "wp-gulp",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Toms15 <info@tommasocostantini.it>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "foundation-sites": "^6.4.3",
+    "font-awesome": "fontawesome#^4.7.0",
+    "swiper": "^4.0.7",
+    "masonry": "^4.2.0",
+    "magnific-popup": "^1.1.0"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "foundation-sites": {
+      "main": [
+        "dist/css/foundation.min.css",
+        "dist/js/foundation.min.js"
+      ]
+    },
+    "font-awesome": {
+      "main": [
+        "css/font-awesome.css"
+      ]
+    },
+    "swiper": {
+      "main": [
+        "dist/js/swiper.min.js",
+        "dist/css/swiper.min.css"
+      ]
+    },
+    "masonry": {
+      "main": [
+        "dist/masonry.pkgd.min.js"
+      ]
+    },
+    "magnific-popup": {
+      "main": [
+        "dist/jquery.magnific-popup.min.js",
+        "dist/magnific-popup.css"
+      ]
+    }
+  }
+}
