@@ -10,6 +10,7 @@
 
 var gulp                = require('gulp');
 var $                   = require('gulp-load-plugins')();
+var uglify              = require('gulp-uglify-es').default;
 var runSequence         = require('run-sequence');
 var mainBowerFiles      = require('main-bower-files');
 var browserSync         = require("browser-sync").create();
@@ -62,7 +63,7 @@ gulp.task('php', function() {
 
 gulp.task('js', function() {
   return gulp.src('wp-content/themes/name-theme/assets/js/**/*.js')
-  .pipe($.uglify())
+  .pipe(uglify())
   .pipe(gulp.dest('wp-content/themes/name-theme/js'))
   .pipe(browserSync.stream());
 });
@@ -93,7 +94,7 @@ gulp.task('bower', function() {
 gulp.task('vendor-js', () => {
   return gulp.src(['wp-content/themes/name-theme/vendor/jquery/**/*.js', 'wp-content/themes/name-theme/vendor/**/*.js'])
       .pipe($.concat('vendor.js'))
-      .pipe($.uglify())
+      .pipe(uglify())
       .pipe(gulp.dest('wp-content/themes/name-theme/js'))
 });
 

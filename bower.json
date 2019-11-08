@@ -17,10 +17,10 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "foundation-sites": "^6.4.3",
-    "font-awesome": "fontawesome#^4.7.0",
     "swiper": "^4.0.7",
     "masonry": "^4.2.0",
-    "magnific-popup": "^1.1.0"
+    "jquery.cookiebar": "^1.2.1",
+    "vanilla-lazyload": "^12.0.0"
   },
   "overrides": {
     "bootstrap": {
@@ -35,11 +35,6 @@
         "dist/js/foundation.min.js"
       ]
     },
-    "font-awesome": {
-      "main": [
-        "css/font-awesome.css"
-      ]
-    },
     "swiper": {
       "main": [
         "dist/js/swiper.min.js",
@@ -49,12 +44,6 @@
     "masonry": {
       "main": [
         "dist/masonry.pkgd.min.js"
-      ]
-    },
-    "magnific-popup": {
-      "main": [
-        "dist/jquery.magnific-popup.min.js",
-        "dist/magnific-popup.css"
       ]
     }
   }

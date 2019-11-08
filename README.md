@@ -5,7 +5,7 @@ Simple Gulp environment for Wordpress!
 - Scss
 - Autoprefixer
 - BrowserSync
-- Bower dependencies installation (Bootstrap or Foundation Zurb 6 - Font Awesome - Swiper - Masonry - Magnific Popup)
+- Bower dependencies installation (Bootstrap or Foundation Zurb 6 - Swiper - Masonry - Cookiebar - LazyLoad)
 
 ## Get started
 Clone this repo on your folder. Run inside of it:
